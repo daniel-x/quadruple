@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>de.a0h.quadruple</groupId>
+		<artifactId>quadruple</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>quadruple-gui-common</artifactId>
+	<packaging>jar</packaging>
+
+	<name>quadruple-gui-common</name>
+	<url>https://a0h.de/quadruple</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>de.a0h.quadruple</groupId>
+			<artifactId>quadruple-game</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
